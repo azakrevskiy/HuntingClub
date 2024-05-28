@@ -1,0 +1,525 @@
+* {
+	box-sizing: border-box;
+}
+
+.html {
+	font-size: 16px;
+}
+
+header {
+  width: 100%;	
+}
+
+#logo-bar {
+	display: flex;
+	align-items: center;
+	/*background-image: linear-gradient(90deg, lightblue 8%, blue 30%, lightblue 100%);*/
+	background-color: #929381;
+}
+	
+#logo {
+	height: 110px;
+	width: 110px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 200px;
+}	
+
+#logo-bar h1 {
+	font-size: 2.5rem;
+	color: white;
+}
+
+#menu-bar {
+  display: flex;
+  align-items: center;	 
+  /*background-image: linear-gradient(90deg, lightblue 8%, blue 30%, lightblue 100%);*/
+  border-bottom: solid 1px white;
+  background-color: #929381;
+}
+
+ul {
+	display: flex;
+    list-style: none;
+}
+
+li {
+	padding-right: 3rem;
+	font-size: 0.9rem;
+}
+
+nav a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;	
+   line-height: 0.5;
+}
+
+.menu {
+    display: block;
+    margin: 0px auto;
+}
+
+.mobile {
+	display: none;
+}
+
+.desc {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+#upper {
+  height: 40rem;
+  background-image: url('../images/forestlake.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+ #activities img {
+  width: 21%;
+  margin: 1.5%;
+}
+
+ .gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+#summary h2, p {
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+
+
+#info p {
+	font-size: 1rem;
+	text-align: justify;
+	padding: 20px;
+}
+
+#upper .left {
+	height: 40rem;
+	width: 60%;
+}
+
+#upper .right {
+	height: 40rem;
+	width: 40%;
+}
+
+.container {
+	float: left;
+}
+
+#top {
+	height: 10rem;
+	width: 100%;
+	padding-top: 100px;
+	padding-left: 100px;
+	text-align:left;
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
+}
+
+#center {
+	padding-top: 80px;
+	height: 13rem;
+	width: 100%;
+}
+
+#add {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#bottom {
+	height: 10rem;
+	width: 100%;
+	padding-top: 10px;
+	padding-right: 100px;
+	text-align: right;
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
+}
+
+.right {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.lodgin {
+	width: 70%;
+	margin: auto;
+	border: solid 1px white;
+}
+
+.lodgin img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.cabintext {
+	padding-top: 15px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: white;
+}
+
+/*#info {
+	height: 18rem;
+}*/
+
+#info .left {
+	height: 18rem;
+	padding-left: 20px;
+	width: 60%;
+}
+
+#info .left p {
+	text-align: justify;
+}
+
+#info .right {
+	width: 40%;
+	height: 18rem;
+	padding-top: 45px;
+}
+
+#info {
+	display: flex;
+}
+
+#info p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+#lodgininfo {
+	padding: 10px;
+	width: 80%;
+	height: 12rem;
+	margin: auto;
+  background-color: #4a4a4a;
+}
+
+#info .right a {
+	 color: white;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+#membership {
+	display: flex;
+	/*height: 25rem;*/
+  background-image: url('../images/lake.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.member {
+	height: 25rem;
+	width: 50%;
+	 display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.direction {
+	height: 25rem;
+	width: 50%;
+	display: flex;
+	 align-items: center;	 
+	 align-content: center; 
+	 padding-left: 2rem;
+	 padding-right: 2rem;
+}
+
+.direction p {
+	text-align: justify;
+	color: white;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+#sign-up {
+  width: 80%;
+  margin: auto;
+  padding: 0 5rem 2.5rem 5rem;
+  border: solid 1px #979797;
+  border-radius: 4px;
+  background-color: #929381;
+  opacity: 0.8;
+}
+
+#sign-up .content {
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: white;
+}
+
+
+#sign-up h1 {
+  font-size: 1.2rem;
+}
+
+.become {
+	text-align: center;
+}
+
+#sign-up span strong {
+  font-weight: bold;
+}
+
+#sign-up .become {
+  font-family: "Rubik", sans-serif;
+  padding-bottom: .5rem;
+}
+
+#sign-up .button {
+  margin-top: 1.625rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer {
+ background-color: #929381;
+}
+
+footer .content {
+  color: white;
+  padding: 10px 20px 20px 20px;
+}
+
+footer .location {
+   float: right;
+}
+
+@media only screen and (max-width: 1048px) {
+  #logo-bar h1 {
+	font-size: 2.2rem;
+  }
+  
+  #logo {
+	margin-right: 150px;
+}
+
+#top {
+	font-size: 2.5rem;
+}
+
+#add {
+	font-size: 2.5rem;
+}
+
+#bottom {
+	font-size: 2.5rem;
+}
+
+li {
+	padding-right: 2rem;
+ }
+ 
+ #info p {
+	font-size: 1.1rem;
+	}
+	
+	.direction p {
+		font-size: 1.2rem;
+	}
+	
+#sign-up h1 {
+  font-size: 1rem;
+  }
+  
+  #sign-up span {
+  	font-size: .9rem;
+  }
+  
+}
+
+@media only screen and (max-width: 880px) {
+	#logo-bar h1 {
+	font-size: 2rem;
+  }
+  
+  #logo {
+	margin-right: 100px;
+}
+
+#top {
+	font-size: 2.2rem;
+	padding-left: 45px;
+}
+
+#add {
+	font-size: 2.2rem;
+}
+
+#bottom {
+	font-size: 2.2rem;
+	padding-right: 45px;
+}
+
+li {
+	padding-right: 1rem;
+	font-size: 0.8rem;
+ }
+ 
+ #info p {
+	font-size: 1rem;
+	}
+	
+	.direction p {
+		font-size: 1rem;
+	}
+	
+#sign-up h1 {
+  font-size: .9rem;
+  }
+  
+  #sign-up span {
+  	font-size: .8rem;
+  }
+ 
+
+  .cabintext {
+	font-size: 1.2rem;
+
+   }
+   
+   #activities img {
+    width: 49%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media only screen and (max-width: 750px) {
+   
+   #logo-bar h1 {
+	font-size: 1.5rem;
+  }
+  
+  li {
+	padding-right: .5rem;
+ }
+ 
+ #summary h2, p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+  .cabintext {
+	font-size: 1rem;
+}
+
+#top {
+	font-size: 2rem;
+	padding-left: 20px;
+}
+
+#add {
+	font-size: 2rem;
+}
+
+#bottom {
+	font-size: 2rem;
+	padding-right: 20px;
+}
+
+#membership {
+    flex-flow: column;
+	align-text: center;
+	align-content: center;
+}
+
+.member, .direction {
+	margin: auto;
+	width: 80%;
+	height: 15rem;
+	margin-top: 1rem;
+}
+
+#info {
+	flex-flow: column;
+	align-text: center;
+	align-content: center;
+}
+
+#info .left {
+	width: 80%;
+	padding: 0;
+	height: 15rem;
+}
+
+#info .right {
+	width: 80%;
+	padding: 0;
+	height: 15rem;
+}
+
+
+ .left, .right {
+	margin: auto;
+	margin-top: 1rem;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+	ul {
+	display: flex;
+	flex-flow: column; 
+    list-style: none;
+}
+
+li {
+	margin: 5px;
+}
+
+#logo {
+	display: none;
+}
+
+#logo-bar h1 {
+	font-size: 1.3rem;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  
+  
+  #upper .right {
+  	display: none;
+  }
+  
+   #activities img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+
+
+
+
